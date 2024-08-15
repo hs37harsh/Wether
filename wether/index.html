@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <div class="input-box"><input type="text" class="input" placeholder="enter your loc">
+        <button class="fa-solid fa-magnifying-glass" type="sumbit" id="srcbtn"></button>
+    </div>
+        </div> 
+     <div class="Wheather-body">
+        <img src="image/weather.jpg" alt="rainy" class="Wheather-img">
+        <div class="Wheather-box">
+            <p class="city"></p>
+            <p class="temp">0<sup>°C</sup></p>
+            <p class="des">Light rain</p>
+            
+        </div>
+        <div class="Wheather-detail">
+      <div class="hum">
+        <i class="fa-sharp fa-solid fa-droplet"></i>
+        <div class="text">
+        <span id="hum">45%</span>
+        <p>humidity</p>
+         </div>
+     </div>
+
+      <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+         <div class="text">
+         <span id="wind-speed">12km/hr</span>
+         <p>wind-speed</p>
+        </div>
+     </div>
+        </div>
+     </div>
+    </div>
+    <script src="https://kit.fontawesome.com/07960693cb.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
